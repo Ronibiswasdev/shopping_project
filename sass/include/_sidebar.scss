@@ -1,0 +1,57 @@
+/* side bar
+================
+*/
+
+.main-sec {
+    margin: 2.5rem 0;
+}
+
+.main-sec .sidebar-are {
+    background: $bg-color;
+    padding: 1.0rem .5rem;
+    border-radius: .4rem;
+    box-shadow: 0 0 .5rem #4646464f;
+}
+
+.main-sec .sidebar-are .slider-header h2 {
+    font-size: 2.0rem;
+    color: $color-green;
+    border-bottom: .1rem solid $primary-color;
+    padding-bottom: .5rem;
+    text-transform: uppercase;
+    font-family: $roboto-b;
+}
+
+.list-group {
+    margin-bottom: 1.0rem;
+}
+
+.list-group h3 {
+    color: $primary-color;
+    padding-bottom: .5rem;
+    font-family: $roboto-m;
+    letter-spacing: .1rem;
+}
+
+.list-group .list-group-item {
+    background: none;
+    font-size: 1.6rem;
+    font-family: $lato-r;
+}
+
+.list-group h3 span {
+    font-family: $lato-r;
+    font-size: 1.4rem;
+    text-align: right;
+    float: right;
+    border: .1rem solid #ddd;
+    padding: .3rem .5rem;
+    cursor: pointer;
+    transition: .5s;
+    color: $font-color;
+}
+
+.list-group h3 span:hover {
+    color: $color-green;
+    border: .1rem solid $color-green;
+}
